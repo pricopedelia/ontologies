@@ -395,6 +395,14 @@
 (related  case76 d17 has-confirmation-date) 
 (related  case76 unknownForwardContact has-direct-contact)
 
+(instance case78 (and Person (equal has-age 1)))
+(related  case78 hospitalized has-status)
+(related  case78 male has-gender)
+(related  case78 Bacau has-detection-location)
+(related  case78 localTransmission has-source-of-infection)
+(related  case78 Romania has-origin-of-infection)
+(related  case78 d14 has-confirmation-date)
+
 (instance case84 (and Person (equal has-age 41)))
 (related case84 hospitalized has-status)
 (related case84 female has-gender)
@@ -527,6 +535,7 @@
 (related case301 localTransmission has-source-of-infection)
 (related case301 Romania has-origin-of-infection)
 (related case301 d18 has-confirmation-date)
+
 
 
 
